@@ -1,0 +1,22 @@
+{
+  "name": "formacao-full-stack-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielaLeguari/formacao-full-stack-nodejs.git"
+  },
+  "author": "Daniela Leguari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielaLeguari/formacao-full-stack-nodejs/issues"
+  },
+  "homepage": "https://github.com/DanielaLeguari/formacao-full-stack-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
