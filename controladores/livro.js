@@ -1,4 +1,4 @@
-const { getTodosLivros, getLivroId, insereLivro } = require("../servicos/livros");
+const { getTodosLivros, getLivroId, insereLivro, editaLivro } = require("../servicos/livros");
 
 const getLivros = (req, res) => {
     try {
@@ -21,7 +21,7 @@ const getLivro = (req, res) => {
     }
 }
 
-const postLivro = (req, res)=> {
+const postLivro = (req, res) => {
     try {
         const livroNovo = req.body;
         insereLivro(livroNovo);
@@ -33,8 +33,21 @@ const postLivro = (req, res)=> {
     }
 };
 
+const patchLivro = (req, res) => {
+    try {
+        const id = req.params.id;
+        const body = req.body;
+        editaLivro(body, id);
+        res.send("Item modificado com sucesso!");
+    } catch (error) {
+        res.status(500);
+        res.send(error.message);
+    }
+}
+
 module.exports = {
     getLivros,
     getLivro,
-    postLivro
+    postLivro,
+    patchLivro
 }
