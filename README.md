@@ -5,25 +5,23 @@
 *******
 
 ## Instruções da criação do Server
-- Node.js
+- `node.js`
 - `npm init`
 
 
 ## Dependências
 
 `npm install express`
-
 `npm install nodemon -g`
 
 *******
 
 ### API
-- Resumidamente quando o front-end solicita alguma dado a API retorna esse dados após um determinado tempo.
+- Resumidamente quando o front-end solicita algum dado a API retorna esse dados após um determinado tempo.
 
 *******
 
-# Estruturação deste projeto Node
-
+# Estruturação deste projeto node.js
 
 ### Router
 
@@ -34,6 +32,8 @@
 - Já os controladores têm a responsabilidade de retornar status e respostas. Dessa maneira, o projeto fica mais organizado.
 
 ## Serviços
+
+- Conexões com dados externos(por exemplo: leitura de JSON, banco de dados).
 
 *******
 
