@@ -14,9 +14,8 @@
 `npm install express`
 `npm install nodemon -g`
 
->
 
-**Note**: Comando para execução do projeto
+> **Note**: Comando para execução do projeto
 
 `nodemon app.js`
 
