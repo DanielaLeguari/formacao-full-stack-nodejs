@@ -14,8 +14,13 @@
 `npm install express`
 `npm install nodemon -g`
 
-*******
+>
 
+**Note**: Comando para execução do projeto
+
+`nodemon app.js`
+
+*******
 ### API
 - Resumidamente quando o front-end solicita algum dado a API retorna esse dados após um determinado tempo.
 
