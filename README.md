@@ -1,6 +1,6 @@
 # Projeto Back-end "LeguariBooks Server"
 
-### Criação de Servidor de Dados para o  projeto front-end LeguariBooks
+### Criação de Servidor de Dados para o  projeto front-end AluraBooks
 
 *******
 
