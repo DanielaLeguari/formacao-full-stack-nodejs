@@ -1,10 +1,13 @@
 const express = require("express"); //importação do express
 const rotaLivro = require("./rotas/livro");
 
+const cors = require("cors");
+
 const app = express();
 
 //dessa forma a aplicação aceita receber json
 app.use(express.json());
+app.use(cors({ origin: "*" }))
 
 app.use('/livros', rotaLivro);
 
