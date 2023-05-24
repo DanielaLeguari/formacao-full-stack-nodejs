@@ -20,7 +20,7 @@ const insereLivroFavorito = (id) => {
     const livroInserido = livros.find(livro => livro.id === id);
     const novaListaDeLivrosFavoritos = [...favoritos, livroInserido];
 
-    fs.writeFileSync("./livros.json", JSON.stringify(novaListaDeLivrosFavoritos));
+    fs.writeFileSync("./favoritos.json", JSON.stringify(novaListaDeLivrosFavoritos));
 }
 
 module.exports = {

@@ -1,7 +1,4 @@
-const { getLivrosFavoritos,
-    deletaLivroFavoritoporId,
-    insereLivroFavorito
-} = require("../servicos/livros");
+const { getLivrosFavoritos,deletaLivroFavoritoporId,insereLivroFavorito} = require("../servicos/favorito");
 
 const getFavoritos = (req, res) => {
     try {
