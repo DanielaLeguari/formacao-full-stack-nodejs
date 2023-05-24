@@ -1,1 +1,26 @@
-[{"titulo":"A turma da rua Quinze"," id":"4"},{"titulo":"O escaravelho do Diabo","id":"5"},{"titulo":"A maldição do Faraó","id":"6"},{"titulo":"A ilha Perdida","id":"7"},{"titulo":"A primeira Reportagem 2","id":"10"},{"titulo":"A primeira Reportagem","id":"14"}]
+[
+    {
+        "titulo": "A turma da rua Quinze",
+        " id": "4"
+    },
+    {
+        "titulo": "O escaravelho do Diabo",
+        "id": "5"
+    },
+    {
+        "titulo": "A maldição do Faraó",
+        "id": "6"
+    },
+    {
+        "titulo": "A ilha Perdida",
+        "id": "7"
+    },
+    {
+        "titulo": "A primeira Reportagem 2",
+        "id": "10"
+    },
+    {
+        "titulo": "A primeira Reportagem",
+        "id": "14"
+    }
+]
